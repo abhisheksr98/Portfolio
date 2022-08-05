@@ -85,6 +85,16 @@
             content: 'CONTACT';
         }
     }
+    a.skills-link{
+        &:after{
+            content: 'SKILLS';
+        }
+    }
+    a.project-link{
+        &:after{
+            content: 'PROJECT';
+        }
+    }
     a.active{
         svg{
             color: #ffd700;
