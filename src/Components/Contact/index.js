@@ -33,11 +33,6 @@ const Contact =  () => {
     <div className="container contact-page">
         <div className="text-zone">
           <h2 className='title'>Contact Me</h2>
-          <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
-          </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
