@@ -1,14 +1,18 @@
 import spotify from '../../assets/images/Spotify_Logo_CMYK_White.png'
 import netflix from '../../assets/images/netflix logo.png'
 import todo from '../../assets/images/todo.png'
+import olx from '../../assets/images/olx-logo.png'
 import './index.scss'
+// import { useNavigate } from 'react-router-dom'
 
 
 const Project = () => {
+
   const projects = [
        {
               id:1,
-              src: spotify
+              src: spotify,
+             
        },
        {
               id:2,
@@ -20,7 +24,7 @@ const Project = () => {
        },
        {
               id:4,
-              src: todo
+              src: olx
        },
        
   ];
@@ -29,12 +33,12 @@ return(
        <div className="project1">
               <h1 className="title">My Projects</h1>
               {
-              projects.map(({id ,src}) => {
+              projects.map(({id ,src }) => {
                 return  <>
               <div key={id} className="card">
                 <img src={src} className='spotify' alt="Avatar"  />
-                <button onClick={site} className="button">Demo</button>
-                <button onClick={site} className="button">Code</button>
+                <button onClick={event =>  window.location.href='google.com'} className="button">Demo</button>
+                <button className="button">Code</button>
               </div>
               </>
          })}

@@ -8,7 +8,7 @@ const Skills = () => {
 return(
   <> <div className='skill-zone'> 
        <h1 className='skills'>Skills</h1>
-       <div className="skill-icon">
+       <div >
           <FontAwesomeIcon className='Angular' icon={faNodeJs} color="#DD0031" />        
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />  
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
