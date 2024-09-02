@@ -30,8 +30,8 @@ const Project = () => {
   ];
 
 return(
-       <div className="project1">
-              <h1 className="title">My Projects</h1>
+       <div className="project">
+              <h3 className="title">Projects</h3>
               {
               projects.map(({id ,src }) => {
                 return  <>

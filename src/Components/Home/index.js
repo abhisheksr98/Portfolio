@@ -9,11 +9,10 @@ const Home = () => {
         
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi <br />I'm
-                Abhishek
-                <br />
-                Web developer
-                </h1>
+                <h1>Hi I'm Abhishek</h1>
+                <br></br>
+                A passionate Frontend Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / and some other cool libraries and frameworks
+                
                 <h2>Frontend developer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
